@@ -1,0 +1,175 @@
+*{
+
+    margin:0;
+    padding: 0;
+
+}
+
+header
+{
+    background-color:#001064;
+}
+body
+{
+
+   background-image: image("triangle-mosaic.png");
+    font-size: 1em ;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h2,h3,h4,h5,h6{
+    margin: 1em;
+    padding: 1em;
+}
+
+#logo1
+{
+    height: 10em;
+    width: 10em;
+    border : 1ex double black;
+}
+#logo2
+{
+    height: 10em;
+    width: 10em;
+    float:right;
+    border : 1ex  double black;
+
+
+}
+
+
+#NomPrenom
+{
+text-align: center;
+color:white;
+}
+.MiseEnForme
+{
+    display:flex;
+}
+.header
+{
+    flex:1;
+    margin:1em;
+}
+.clearfix{
+    clear: both;
+}
+#navigation
+{
+    background-color: #283593;
+    display:flex;
+    text-align: center;
+    font-size: 2em;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+.navigationAcceuille
+{
+    position: sticky;
+    width:auto;
+    flex:1;
+    border:10px solid black;
+    background-color:black;
+}
+
+.navigationAcceuille:hover{
+    background-color:dimgrey;
+    border:10px solid dimgrey;
+    flex:1;
+    color:white;
+}
+.navigation
+{
+    width:auto;
+    flex:1;
+    border : 10px  solid #283593;
+}
+.navigation:hover
+{
+    background-color:#5f5fc4;
+    border:10px solid #5f5fc4;
+    flex:1;
+    color:white;
+}
+
+.categorie
+ {
+    padding: 1em;
+    margin: 2em;
+
+     border:1px black solid;
+    background-color: #757de8;
+ }
+.categorieNom
+{
+    border:0.4em #5f5fc4 solid;
+    background-color: white;
+    color:#5f5fc4;
+    text-align:center;
+    width:30%;
+    border-radius: 10px 20px  10px;
+}
+
+.text
+{
+    left: 0px;
+    margin: 1em;
+    padding: 1em;
+}
+.note
+{
+    display: flex;
+    justify-content: flex-start;
+}
+.carréBleue{
+    margin: 30px;
+    height: 30px;
+    width: 30px;
+    background-color: #283593;
+}
+.carréGris{
+    margin: 30px;
+    height: 30px;
+    width: 30px;
+    background-color: grey;
+}
+.xp
+{
+    margin: 1em;
+    padding: 1em;
+    align-content: center;
+    font-size: 1em;
+}
+.image
+{
+    width:30em;
+    height:30em;
+}
+.categorieFormulaire
+{
+    padding: 2em;
+    margin: 2em;
+    display: flex;
+    border:1px black solid;
+    background-color: #757de8;
+}
+.textFormulaire
+{
+    font-size: 2em;
+    width:auto;
+    flex:1;
+    margin: auto;
+    alignment: center;
+}
+.formulaire
+{
+    margin: 1em;
+    width: 23em;
+    flex: 1;
+    font-size: 2em;
+}
